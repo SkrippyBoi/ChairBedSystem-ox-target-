@@ -4,8 +4,8 @@
 
 # Dependencies: Nh-Context Qtarget
 
-**Installation:**
-## drag and drop, make sure you have the dependencies 
+## Installation
+drag and drop, make sure you have the dependencies
 
 ## Discord for support - https://discord.gg/BHHAs4GkeZ
 
@@ -13,5 +13,5 @@
 
 ## All Credits to original Creators
 
-## O.G Script https://forum.cfx.re/t/release-standalone-chair-bed-system-sit-lay/858078
-## Where I got the Idea: https://github.com/g3shaa/ChairBedSystem
+O.G Script https://forum.cfx.re/t/release-standalone-chair-bed-system-sit-lay/858078 
+Where I got the Idea: https://github.com/g3shaa/ChairBedSystem
