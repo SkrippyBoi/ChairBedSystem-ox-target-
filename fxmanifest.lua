@@ -11,3 +11,7 @@ client_scripts{
 server_scripts{
 	'server/server.lua'
 }
+
+shared_script {
+	'@ox_lib/init.lua'
+}
