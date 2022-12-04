@@ -1,8 +1,8 @@
-# ChairBedSystem using qtarget and nh Context
+# ChairBedSystem using ox target and nh Context
 
-# Future plans: Add a option for ox lib
 
-# Dependencies: Nh-Context Qtarget
+
+# Dependencies: Nh-Context or ox lib ox-target
 
 ## Installation
 drag and drop, make sure you have the dependencies
@@ -15,3 +15,5 @@ drag and drop, make sure you have the dependencies
 
 O.G Script https://forum.cfx.re/t/release-standalone-chair-bed-system-sit-lay/858078 
 Where I got the Idea: https://github.com/g3shaa/ChairBedSystem
+
+Ox lib addition by Formulation Rp
