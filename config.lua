@@ -1,5 +1,7 @@
 Config = {}
 
+Config.Context = 'ox_lib' --nh-context or ox_lib
+
 Config.objects = {
 	object = nil, ObjectVertX = nil, ObjectVertY = nil, ObjectVertZ = nil, OjbectDir = nil, isBed = nil,
 	SitAnimation = 'PROP_HUMAN_SEAT_CHAIR_MP_PLAYER',
