@@ -261,7 +261,7 @@ RegisterNetEvent("bed:menu", function()
 				
 			},
 			{
-				header = "Lie on your stomach",
+				header = "Lay on your stomach",
 				txt = "",
 				event = "bed:layStomach",
 
