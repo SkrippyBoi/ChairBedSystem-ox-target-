@@ -233,21 +233,19 @@ function PlayAnimOnPlayer(object,vertx,verty,vertz,dir, isBed, ped, objectcoords
 end
 
 
-	Citizen.CreateThread(function()
-		exports['qtarget']:AddTargetModel(beds, {
-			options = {
-				{
-					event = "bed:menu",
-					icon = "fas fa-chair",
-					label = "Rest In Bed",
-				},
-			},
-			job = {"all"},
-			distance = 5
-		})
-	
+exports.ox_target:addModel({
+	{
+		event = "bed:menu",
+		icon = "fas fa-chair",
+		label = "Rest",
+		num = 1
+	},
+})
 
-	RegisterNetEvent("bed:menu", function()
+
+	
+	
+RegisterNetEvent("bed:menu", function()
     TriggerEvent("nh-context:createMenu", {
 			
 			{
@@ -281,7 +279,7 @@ end
 	end)
 	
 	
-end)
+
 
 
 
