@@ -243,43 +243,7 @@ exports.ox_target:addModel({
 })
 
 
-	
-	
-if Config.Context = 'nh-context' then
-	RegisterNetEvent("bed:menu", function()
-	TriggerEvent("nh-context:createMenu", {
-			
-			{
-				header = "Sit on the bed",
-				txt = "",
-				event = "bed:sit",
-				
-			},
-			{
-				header = "Lie down on your back",
-				txt = "",
-				event = "bed:layBack",
-				
-			},
-			{
-				header = "Lie on your stomach",
-				txt = "",
-				event = "bed:layStomach",
-
-			},
-
-			{
-				header = "Get Up",
-				txt = "",
-				event = "bed:up",
-
-			},
-
-			
-		})
-	end)
-else if Config.Context = 'ox_lib' then
-	lib.registerContext({
+lib.registerContext({
 		id = 'bedMenu',
 		title = 'Bed options',
 		options = {
