@@ -233,7 +233,7 @@ function PlayAnimOnPlayer(object,vertx,verty,vertz,dir, isBed, ped, objectcoords
 end
 
 
-exports.ox_target:addModel({
+exports.ox_target:addModel(beds, {
 	{
 		event = "bed:menu",
 		icon = "fas fa-chair",
